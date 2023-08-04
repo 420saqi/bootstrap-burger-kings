@@ -1,0 +1,158 @@
+@font-face{
+    src: url('fonts/Dimor.otf');
+    font-family: dimor;
+}
+@font-face {
+    font-family: dimorInlineA;
+    src: url('fonts/DimorInlineA.otf');
+}
+@font-face {
+    font-family: dimorOutlineB;
+    src: url('fonts/DimorOutlineB.otf');
+}
+.sameColor{
+    color: #b09165;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.header{
+    background-image: url('img/BackgroundImage.png');
+    height: 90vh;
+}
+.colorHeader{
+	color: #b09165;
+
+}
+.colorBtn{
+	color: #b09165;
+    background-color: #b09165;
+}
+.rightNavItems{
+    flex-direction: column;
+}
+.deliveryHead{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+}
+.hr{
+    font-size: large;
+    font-weight: bold;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+}
+.headerTitle{
+    font-size: 5em;
+    line-height: 1;
+    font-family: dimorInlineA;
+}
+.offer{
+    text-align: center;
+    line-height: .5;
+    font-weight: bold;
+    opacity: .6;
+}
+.price{
+    font-size: 8em;
+    font-family: dimorOutlineB;
+}
+.dollar{
+    font-size: 3em;
+    font-family: dimor;
+}
+.order{
+    /* background-color: #271E15; */
+    background-image: linear-gradient(to top,#211a14, #271E15);
+}
+.menu-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-items .col{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.menu-heading-text{
+    padding-top: 10vh;
+}
+.menu-order-text{
+    text-align: center;
+}
+.menu-img{
+    height: 63vh;
+    width: 45vw;
+}
+
+.just-img-popular{
+    background-image: url('img/1\ \(1\).png');
+}
+.just-img-fun{
+    background-image: url('img/2\ \(1\).png');
+}
+.just-img-fresh{
+    background-image: url('img/3.png');
+}
+.upcoming-event-row{
+background-image: linear-gradient(to top, #0a0805, #211a14 );
+
+}
+
+.upcoming-event-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.upcoming-img{
+    background-image: url('img/UpcommingEvents.png');
+    height: 43vh;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.arrow{
+    filter: invert(100);
+    opacity: 0.5;
+}
+.booking-row{
+    background-image: url('img/FormSideImage.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+.booking .row input{
+    border: 1px solid #b09165;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 30%;
+    margin: 10px;
+    height: 50px;
+    background-color: black;
+    color:#b09165;
+}
+.footer{
+    background-image: url('img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.footer-text{
+    margin: auto;
+}
+.footer-img{
+    height: 33px;
+    filter: invert(100%);
+}
+.footer-img-last{
+    height: 40px;
+    filter: invert(100);
+    margin: 5px;
+}
